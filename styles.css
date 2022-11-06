@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+/* Left side */
+
+.left-div{
+    height: 100vh;
+    flex-grow: 2;
+    flex-shrink: 1;
+    background-image: url("gfx/rohit-tandon-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-div>p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-div a {
+    color: rgb(70%, 70%, 70%);
+}
+
+.logo-box {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33%;
+    font-size: 60px;
+}
+
+.logo-box>img{
+    height: 100px;
+}
+
+/* Right hand side */
+.right-div {
+    background-color: whitesmoke;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
