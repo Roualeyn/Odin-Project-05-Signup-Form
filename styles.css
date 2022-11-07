@@ -46,10 +46,17 @@ a {
 }
 
 /* Right hand side */
+
 .right-div {
-    background-color: whitesmoke;
-    position: relative;
+    background-color: white;
     flex-grow: 1;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.right-div>div:first-child {
+    font-size: 1.5rem;
+    margin: 2rem;
+    flex: 1;
+}
