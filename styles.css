@@ -35,14 +35,24 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 33%;
     font-size: 60px;
     font-family: "freemettoMedium";
+    padding: 1em 0;
 }
 
 .logo-box>img{
-    height: 1.5em;
+    position: relative;
+    bottom: 0.1em;
+    height: 0.7em;
     filter: invert(100%);
+    margin-right: 0.1em;
+}
+
+
+.logo-box>p {
+    margin: 0;
 }
 
 /* Right hand side */
