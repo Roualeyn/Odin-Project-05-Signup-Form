@@ -49,10 +49,11 @@ a {
 
 .right-div {
     background-color: white;
-    flex-grow: 1;
-    flex-shrink: 0;
+form label {
     display: flex;
     flex-direction: column;
+    width: 20rem;
+    font-family: sans-serif;
 }
 
 .right-div>div:first-child {
