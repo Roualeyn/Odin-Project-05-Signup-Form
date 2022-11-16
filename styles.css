@@ -73,17 +73,15 @@ a {
 
 form {
     grid-area: form;
-    margin-left: 1rem;
     box-shadow: 4px 4px 6px 0px #000000;
     display: flex;
-    margin-left: 1rem;
 }
 
 form>div {
     background-color: white;
     width: 100%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 1rem;
     display: grid;
     grid-template-areas:    "p p";
 }
