@@ -104,6 +104,12 @@ form input{
     height: 1.3rem;
     border-color: whitesmoke;
 }
+
+form input:focus {
+   border: 2px solid blue;
+   outline: none;
+}
+
 .bottom-right-div {
     grid-area: bottom-right-div;
     margin-left: 1rem;
@@ -114,6 +120,15 @@ form input{
     color:  rgb(40%, 40%, 40%);
     text-decoration: none;
 }
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+#password-asterisk {
+    color: red;
+}
+
 button {
     background-color: rgb(70%, 70%, 70%);
     border: none;
